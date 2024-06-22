@@ -1,0 +1,405 @@
+body {
+    background: rgb(245, 245, 255);
+    background: linear-gradient(90deg, rgba(245, 245, 255, 1) 0%, rgba(140, 139, 139, 1) 58%, rgba(159, 158, 158, 1) 100%);
+    font-family: Georgia;
+    color: #293f50;
+
+}
+
+header {
+    background: #293f50;
+    height: 100px;
+    border-radius: 10px;
+
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-clip: border-box;
+}
+
+#NAV a {
+    margin: 10px;
+    height: 100px;
+}
+
+#NAV {
+    margin-right: 25px;
+}
+
+#NAV a:hover {
+    background: #213341;
+    box-shadow: 0px 0px 5px 5px;
+    border: solid #365369 1px;
+    border-radius: 5px;
+    cursor: grab;
+
+}
+
+#bodan {
+    text-align: center;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+
+    font-size: 18px;
+}
+
+#bbb {
+    border-top: 1px solid #213341;
+    border-bottom: 1px solid #213341;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 150px;
+    width: 550px;
+
+}
+
+
+footer {
+    display: flex;
+    height: 30px;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+
+    background: #293f50;
+
+    border-radius: 5px;
+    height: 50px;
+    opacity: 0.9;
+    padding-left: 20px;
+}
+
+#naocari {
+    padding-left: 50px;
+    padding-right: 490px;
+}
+
+sup {
+    font-size: 8px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    align-content: center;
+    justify-content: center;
+}
+
+#marble {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /*margin-left: 250px;*/
+    background-image: url("marb bgbg.jpg");
+    opacity: 0.8;
+    height: 300px;
+    background-repeat: no-repeat;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 1700px;
+
+
+}
+
+#social {
+    opacity: 0.8;
+}
+
+#abme {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 1700px;
+
+
+
+}
+
+#chelsea {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 250px;
+
+}
+
+#chelsea div {
+    width: 500px;
+    height: 200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cfcimg {
+    background: url("logo_cfc.png") no-repeat;
+    width: 500px;
+    height: 200px;
+    background-size: contain;
+    margin-left: 50px;
+}
+
+#chelsea div:first-of-type {
+    border-top: 1px solid #213341;
+    border-bottom: 1px solid #213341;
+    text-align: center;
+
+    padding-top: 20px;
+}
+
+#travel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 350px;
+}
+
+#travel div {
+    width: 300px;
+    height: 200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#travel div:first-of-type {
+    border-top: 1px solid #213341;
+    border-bottom: 1px solid #213341;
+    text-align: center;
+
+    padding-top: 20px;
+}
+
+#travel div:last-of-type {
+    border-top: 1px solid #213341;
+    border-bottom: 1px solid #213341;
+    text-align: center;
+
+    padding-top: 20px;
+}
+
+#trav {
+    background: url("travel_img_plane.webp") no-repeat;
+    width: 500px;
+    height: 200px;
+    background-size: contain;
+
+
+}
+
+#travel div {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#videogames {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 250px;
+}
+
+#videogames div:first-of-type {
+    width: 300px;
+    height: 180px;
+
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#videogames div:last-of-type {
+    border-top: 1px solid #213341;
+    border-bottom: 1px solid #213341;
+    text-align: center;
+    height: 100px;
+
+    padding-top: 20px;
+
+    width: 500px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#game {
+    background: url("video_games.jpg") no-repeat;
+    width: 200px;
+    height: 180px;
+    background-size: contain;
+}
+
+#popolnuvanje {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+    /*width: 500px;*/
+    /*border-radius: 5px;*/
+    /*border: white 3px solid;*/
+
+}
+
+#imeprezime, #kadeideme, #stopravime, #nestodrugo, #teldat, #kopce {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+    margin: 10px;
+}
+
+.form-control {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-radius: 5px;
+    border: white 3px solid;
+}
+
+textarea {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-radius: 5px;
+    border: white 3px solid;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    background: #365369;
+    color: white;
+    border-radius: 5px;
+    border: white 3px solid;
+}
+
+button:hover {
+    background: #213341;
+    border: solid #365369 3px;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+#cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+    margin: 10px;
+}
+
+#cont a {
+    font-size: 30px;
+    color: #213341;
+    margin: 20px;
+}
+
+#cont a:hover {
+    color: #213341;
+    box-shadow: 0px 0px 5px 5px;
+    border-radius: 10px;
+}
+
+#socials {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+    margin: 10px;
+}
+
+#socials div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 250px;
+}
+
+#ifr {
+    border-radius: 5px;
+    border: white 3px solid;
+    height: 450px;
+}
+
+#formtext {
+    width: 350px;
+    font-size: 20px;
+
+    border-top: 1px solid #213341;
+    border-bottom: 1px solid #213341;
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
